@@ -1,4 +1,4 @@
-FROM centos
+FROM centos:7
 MAINTAINER raghib.npti@gmail.com
 RUN yum install -y httpd \
   zip unzip
